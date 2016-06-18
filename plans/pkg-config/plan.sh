@@ -13,6 +13,6 @@ pkg_lib_dirs=(lib)
 
 do_build() {
   ./configure --prefix=${pkg_prefix} \
-    	      --with-internal-glib
+              --with-internal-glib
   make
 }
