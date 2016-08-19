@@ -1,0 +1,12 @@
+pkg_origin=core
+pkg_name=xmlto
+pkg_version=0.0.28
+pkg_maintainer="Samuel Cassiba <s@cassiba.com>"
+pkg_license=(apachev2)
+pkg_source=https://fedorahosted.org/releases/x/m/xmlto/xmlto-0.0.28.tar.bz2
+pkg_shasum=sha256sum
+pkg_deps=(core/glibc core/libxslt)
+pkg_build_deps=(core/coreutils)
+pkg_bin_dirs=(bin)
+pkg_include_dirs=(include)
+pkg_lib_dirs=(lib)
